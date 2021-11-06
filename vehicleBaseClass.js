@@ -86,6 +86,8 @@ class Vehicle {
 }
 
 //This exports things you want to use from this "module", more info in readme
-module.exports = {
-    Vehicle
-}
+//export {Car}  from './mercurySedan.js';
+module.exports = Vehicle;
+
+// let newObject = new Vehicle("Honda","toyota","2001","black","1234");
+// console.log(newObject);
